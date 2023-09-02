@@ -7,10 +7,11 @@ Simple microblogging platform
 - New post notification
 
 ## Usage
-(1) Install Dependencies
+(1) Install Dependencies & packages
 ```
 cd [project folder]
 composer install
+npm install
 ```
 
 (2) Run docker
