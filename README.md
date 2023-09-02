@@ -7,13 +7,19 @@ Simple microblogging platform
 - New post notification
 
 ## Usage
-(1) Run docker
+(1) Install Dependencies
+```
+cd [project folder]
+composer install
+```
+
+(2) Run docker
 ```
 cd [project folder]
 ./vendor/bin/sail up -d
 ```
 
-(2) Run seeders
+(3) Run seeders
 ```
 docker compose exec laravel.test bash
 php artisan db:seed
