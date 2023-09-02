@@ -20,6 +20,7 @@ cd [project folder]
 ```
 
 (3) Create .env file
+
 Duplicate the `.env.example` file and rename to `.env`.
 
 (4) Generate key
