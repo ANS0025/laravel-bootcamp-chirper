@@ -19,14 +19,22 @@ cd [project folder]
 ./vendor/bin/sail up -d
 ```
 
-(3) Run seeders
+(3) Create .env file
+Duplicate the `.env.example` file and rename to `.env`.
+
+(4) Generate key
 ```
 docker compose exec laravel.test bash
+php artisan key:generate
+```
+
+(5) Run seeders
+```
 php artisan db:seed
 ```
 This will create three dummy users and posts.
 
-(4) Login to application
+(6) Login to application
 
 Access http://localhost/login
 
